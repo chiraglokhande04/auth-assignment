@@ -46,7 +46,7 @@ export default function Login() {
             <FaUser className="text-gray-300"/>
             <input
               name="email"
-              placeholder="username"
+              placeholder="email"
               onChange={handleChange}
               className="ml-3 w-full bg-transparent outline-none text-white placeholder-gray-300"
             />

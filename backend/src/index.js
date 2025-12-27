@@ -14,7 +14,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:3000",
-      "https://auth-assignment-delta.vercel.app/"  
+      "https://auth-assignment-delta.vercel.app"  
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
