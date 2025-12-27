@@ -12,8 +12,9 @@ const PORT = process.env.PORT || 5000
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", // Vite React
-      "http://localhost:3000"  // CRA React
+      "http://localhost:5173",
+      "http://localhost:3000",
+      "https://auth-assignment-delta.vercel.app/"  
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
